@@ -1,5 +1,5 @@
 {% set name = "cubed" %}
-{% set version = "0.6.3" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4f6716df51674634156224e249bdae0de7e8e0cd999a13c0faf8b00c68251e46
+  sha256: 7356947ec2cb2d211b5db9484e27fc736118ec650ab6291df89e65dcdcf41f53
 
 build:
   number: 0
@@ -44,7 +44,7 @@ about:
   home: https://github.com/tomwhite/cubed
   license: Apache-2.0
   license_family: APACHE
-  license_file: LICENSE 
+  license_file: LICENSE
   summary: Bounded-memory serverless distributed N-dimensional array processing
   doc_url: tomwhite.github.io/cubed
   dev_url: https://github.com/tomwhite/cubed
