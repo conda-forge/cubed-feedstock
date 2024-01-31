@@ -6,31 +6,32 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cubed-{{ version }}.tar.gz
   sha256: 2a4442088441e7ce593a895f6f346dcc5f4f36e092e1d10023a5238086f9b31f
 
 build:
-  number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  number: 0
 
 requirements:
   host:
+    - python >=3.9
     - pip
-    - python >=3.8
     - setuptools >=42
     - setuptools_scm >=3.4
     - toml
   run:
+    - python >=3.9
     - aiostream
+    - array-api-compat
     - fsspec
-    - mypy_extensions # for rechunker
+    - mypy_extensions
     - networkx <2.8.3
     - numpy >=1.22
     - tenacity
     - toolz
     - zarr
-    - python >=3.8
 
 test:
   imports:
