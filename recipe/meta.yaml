@@ -1,5 +1,5 @@
 {% set name = "cubed" %}
-{% set version = "0.14.0" %}
+{% set version = "0.14.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cubed-{{ version }}.tar.gz
-  sha256: 96d4d0b808c89445a991be2e2650cfd54d7bdd6c3927fe4bbfff5bdc77bfb209
+  sha256: b06b318bccf8aaad1c5a82b90b94e90dde03cecf80c276823260bb4285f11775
 
 build:
   noarch: python
