@@ -44,13 +44,13 @@ test:
     - pip
 
 about:
-  home: https://github.com/tomwhite/cubed
+  home: https://github.com/cubed-dev/cubed
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
   summary: Bounded-memory serverless distributed N-dimensional array processing
-  doc_url: tomwhite.github.io/cubed
-  dev_url: https://github.com/tomwhite/cubed
+  doc_url: https://cubed-dev.github.io/cubed/
+  dev_url: https://github.com/cubed-dev/cubed
 
 extra:
   recipe-maintainers:

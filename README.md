@@ -3,15 +3,17 @@ About cubed-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cubed-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/tomwhite/cubed
+Home: https://github.com/cubed-dev/cubed
 
 Package license: Apache-2.0
 
 Summary: Bounded-memory serverless distributed N-dimensional array processing
 
-Development: https://github.com/tomwhite/cubed
+Development: https://github.com/cubed-dev/cubed
 
-Documentation: tomwhite.github.io/cubed
+Documentation: https://cubed-dev.github.io/cubed/
+
+See also: https://github.com/conda-forge/cubed-xarray-feedstock
 
 Current build status
 ====================
