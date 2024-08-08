@@ -1,5 +1,5 @@
 {% set name = "cubed" %}
-{% set version = "0.15.0" %}
+{% set version = "0.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cubed-{{ version }}.tar.gz
-  sha256: de88b46972629cbbdd1200e264789613139187cdb5b46aead13e8c9e43acbc02
+  sha256: baeb0935197f41aad9a94f342a12a8d5c56d8646901363b013c57e4742b8ab26
 
 build:
   noarch: python
@@ -22,6 +22,8 @@ requirements:
     - setuptools_scm >=3.4
     - toml
   run:
+    - ndindex
+    - psutil
     - cloudpickle
     - donfig
     - python >=3.9
