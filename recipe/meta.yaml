@@ -1,5 +1,5 @@
 {% set name = "cubed" %}
-{% set version = "0.17.0" %}
+{% set version = "0.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cubed-{{ version }}.tar.gz
-  sha256: fcf1149aca82f4b866b2faf21839ec9c317782a522fe0ad4e0edb264f857d310
+  sha256: 4c30fd965709e6fca29188a7071924594c3e9e3ca42a0483afed9f43f83df4e7
 
 build:
   noarch: python
@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >=3.10
     - pip
     - setuptools >=42
     - setuptools_scm >=3.4
@@ -26,7 +26,7 @@ requirements:
     - psutil
     - cloudpickle
     - donfig
-    - python >=3.9
+    - python >=3.10
     - aiostream
     - array-api-compat
     - fsspec
