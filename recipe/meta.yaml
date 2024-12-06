@@ -50,7 +50,7 @@ about:
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
-  summary: Scalable out-of-core array processing in Python
+  summary: Scalable array processing with bounded memory
   doc_url: https://cubed-dev.github.io/cubed/
   dev_url: https://github.com/cubed-dev/cubed
 
