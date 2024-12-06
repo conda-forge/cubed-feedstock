@@ -7,7 +7,7 @@ Home: https://github.com/cubed-dev/cubed
 
 Package license: Apache-2.0
 
-Summary: Bounded-memory serverless distributed N-dimensional array processing
+Summary: Scalable array processing with bounded memory
 
 Development: https://github.com/cubed-dev/cubed
 
