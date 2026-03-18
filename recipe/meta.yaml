@@ -1,5 +1,5 @@
 {% set name = "cubed" %}
-{% set version = "0.25.0" %}
+{% set version = "0.26.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cubed-{{ version }}.tar.gz
-  sha256: f1e37953fa58f14b3de1952908cbb282da7f65f3b998371a8b2c3dc7def1eed0
+  sha256: 498847fb429ac1c93c3f11c1c4a160b92e3898e36bf17427c5ebfdd4fedda364
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ requirements:
     - fsspec
     - mypy_extensions
     - networkx !=2.8.3,!=2.8.4,!=2.8.5,!=2.8.6,!=2.8.7,!=2.8.8,!=3.0.*,!=3.1.*,!=3.2.*
-    - numpy >=1.22
+    - numpy >=2
     - tenacity
     - toolz
     - zarr !=3.1.2
